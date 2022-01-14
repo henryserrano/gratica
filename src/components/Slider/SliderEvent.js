@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Slider = () => {
+export const SliderEvent = () => {
   return (
     <>
   
@@ -13,27 +13,27 @@ export const Slider = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
 
-            <div className='bg bg-black h-96'></div>
+            <div className=' bg-pink-600 h-96'></div>
             <div class="carousel-caption d-sm-block">
-              <h3 className="text-xl font-serif font-semibold   text-white mb-8">BRAND DEVELOPMENT</h3>
-              <p className=" text-center  text-gray-300 mb-6">Create powerful visual language that represents your business to your customers. Drive clarity of messaging with marketing brief that alkigns people, customer and outcomes</p>
+              <h3 className="text-xl font-serif font-semibold text-black">Fun Event</h3>
+              <p className=" text-center  text-black mb-6">Fun experiences and stories that tell our journey</p>
 
             </div>
           </div>
           <div class="carousel-item">
 
-            <div className='bg bg-black h-96'></div>
+            <div className=' bg-yellow-600 h-96'></div>
             <div class="carousel-caption  d-sm-block">
-              <h3 className="text-xl  font-semibold  text-white mb-8">OPERATIONAL CONSULTING</h3>
-              <p className="text-sm cursor-pointer leading-none text-gray-300 mb-6">Improve culture and talent retention, add resilence, create lasting organisational change, setting up for long term growth.</p>
+              <h3 className="text-xl  font-semibold  text-black">Enterpreneur Journey</h3>
+              <p className="text-sm  text-black mb-6">Improve culture and talent retention, add resilence, create lasting organisational change, setting up for long term growth.</p>
 
             </div>
           </div>
           <div class="carousel-item">
-            <div className='bg bg-black h-96'></div>
+            <div className=' bg-yellow-400 h-96'></div>
             <div class="carousel-caption  d-sm-block">
-              <h5>CUSTOMER AQUISITION PROGRAM</h5>
-              <p>Innovate program that creates brand new sales channel, delivering results and positive community impact .</p>
+              <h3 className='text-xl  font-semibold  text-black'>Design Thinking</h3>
+              <p className="text-sm  text-black mb-6">Design Centered line of thoughts that inspire.</p>
             </div>
           </div>
         </div>

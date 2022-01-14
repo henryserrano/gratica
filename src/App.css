@@ -8,6 +8,32 @@
   border: 1px solid #f1f1f1;
 }
 
+.backgr-pink {
+  background-color:#FF0090;
+}
+
+.percentage-ninety{
+  width: 95%;
+}
+
+.percentage-ten{
+  width: 3%;
+}
+
+.backgr-yellow {
+background-color:#FFC100;
+}
+
+.backgr-orange {
+  background-color:#FF7B01;
+  }
+  
+
+  .backgr-rosa {
+    background-color:#FF287C;
+    }
+
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
@@ -20,7 +46,7 @@
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 /* Position the front and back side */
@@ -42,7 +68,7 @@
 .flip-card-back {
   
   color: white;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .App-logo {
@@ -79,3 +105,57 @@
     transform: rotate(360deg);
   }
 }
+/*Mouse*/
+.moving-mouse-holder {
+  margin: auto;
+  margin-top: 60px;
+  width: 170px;
+}
+
+.moving-mouse-holder .mouse {
+  width: 26px;
+  height: 40px;
+  position: relative;
+  right: 0;
+  border-radius: 18px;
+  border: 2px solid #000000;
+}
+
+.moving-mouse-holder .mouse-button {
+  background-color: #000000;
+  width: 4px;
+  height: 10px;
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -2px;
+  animation: mouse-scroll 3s infinite alternate;
+}
+
+.moving-mouse-holder .text {
+  margin-top: -30px;
+  margin-left: 40px;
+  color: #33cc66;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+@keyframes mouse-scroll {
+  to {
+    transform: translate(0, 18px) scale(1, 0.8);
+  }
+}
+/*Probando*/
+.reversa{
+  
+  animation-duration: 5.2s;
+  transform: mymove infinite; 
+}
+
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
