@@ -21,12 +21,12 @@ const Services = () => {
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="3000">
                     <div className='bg-white h-auto grid place-items-center'>
-                      <h1 className='text-black text-5xl text-center font-mono py-28'>Think </h1>
+                      <h1 className='text-black text-5xl text-center font-normal sm:font-mono py-28'>Think </h1>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="3000">
                     <div className='bg-white h-auto'>
-                      <h1 className='text-black text-5xl font-mono text-center py-28'>Accelerate </h1>
+                      <h1 className='text-black text-5xl font-family:"AdamBold" text-center py-28'>Accelerate </h1>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="3000">
@@ -46,8 +46,8 @@ const Services = () => {
 
           <div className="sm:flex ">
             <div className=" sm:w-full lg:w-3/6 ">
-              <h1 className="xs:text-4xl md:text-4xl px-3 text- font-mono  text-black ">BRAND DEVELOPMENT</h1>
-              <p className="  px-3 text-xl  text-black font-mono ">Using Design Thinking strategies we will help you create a truly unique and compelling customer centric messaging.
+              <h1 className="xs:text-3xl xs:text-center xs:font-mono md:text-4xl px-3 sm:font-mono lg:font-mono md:font-mono  text-black ">BRAND DEVELOPMENT</h1>
+              <p className=" xs:text-base px-3 text-xl  text-black font-mono ">Using Design Thinking strategies we will help you create a truly unique and compelling customer centric messaging.
                 By understanding the needs and goals of the company, we help you create a marketing and technical brief. This empowering process delivers clarity of messaging, objectives and ultimately delivers a specification for innovation.</p>
 
             </div>
@@ -70,11 +70,11 @@ const Services = () => {
 
                   <div className=' bg-pink-600 h-96'></div>
                   <div class="carousel-caption  d-sm-block">
-                    <h3 className="text-4xl font-semibold  text-white ">MARKETING BRIEF</h3>
-                    <p className="  text-white mb-6">Create powerful visual language that represents your business to your customers. Drive clarity of messaging with marketing brief that alkigns people, customer and outcomes</p>
+                    <h3 className="text-3xl  font-mono  text-white ">MARKETING BRIEF</h3>
+                    <p className="  text-white font-mono mb-6">Create powerful visual language that represents your business to your customers. Drive clarity of messaging with marketing brief that alkigns people, customer and outcomes</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
                   </div>
@@ -83,11 +83,11 @@ const Services = () => {
 
                   <div className=' bg-orange-500 h-96'></div>
                   <div class="carousel-caption  d-sm-block">
-                    <h3 className="text-4xl  font-semibold leading-tight text-white mb-8">DIGITAL ASSETS</h3>
-                    <p className="text-sm cursor-pointer leading-none text-gray-300 mb-6">Improve culture and talent retention, add resilence, create lasting organisational change, setting up for long term growth.</p>
+                    <h3 className="text-3xl   font-mono  text-white mb-8">DIGITAL ASSETS</h3>
+                    <p className="text-sm font-mono text-white mb-6">Improve culture and talent retention, add resilence, create lasting organisational change, setting up for long term growth.</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono   hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
                   </div>
@@ -95,11 +95,11 @@ const Services = () => {
                 <div class="carousel-item">
                   <div className=' bg-orange-500 h-96'></div>
                   <div class="carousel-caption  d-block ">
-                    <h3 className="text-4xl text-center  font-semibold  text-white mb-8">PROJECT MANAGEMENT</h3>
-                    <p>Innovate program that creates brand new sales channel, delivering results and positive community impact .</p>
+                    <h3 className="text-3xl text-center font-mono    text-white mb-8">PROJECT MANAGEMENT</h3>
+                    <p className='font-mono text-white'>Innovate program that creates brand new sales channel, delivering results and positive community impact .</p>
                     <Link to="/contact">
                   <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                    CONTACT US
                   </button>
                 </Link>
                   </div>
@@ -124,14 +124,14 @@ const Services = () => {
 
             </div>
             <div className=" sm:w-full lg:w-3/6  ">
-              <h1 className="text-4xl text-center font-mono   text-black mb-8">CUSTOMER ACQUISITION PROGRAM</h1>
+              <h1 className="text-3xl text-center font-mono   text-black mb-8">CUSTOMER ACQUISITION PROGRAM</h1>
              
                 <ul className=''>
-               <li> -We help businesses</li>
-               <li> -Run unique digital events</li>
-               <li>-Attract more customers</li>
-               <li>-Create SME content</li>
-               <li>-Increase market visibility</li>
+               <li className='font-mono'> -We help businesses</li>
+               <li className='font-mono'> -Run unique digital events</li>
+               <li className='font-mono'>-Attract more customers</li>
+               <li className='font-mono'>-Create SME content</li>
+               <li className='font-mono'>-Increase market visibility</li>
                 </ul>
               
 
@@ -152,11 +152,11 @@ const Services = () => {
 
                   <div className='bg bg-yellow-400 h-96'></div>
                   <div class="carousel-caption  d-sm-block">
-                    <h3 className="text-4xl cursor-default  text-black   mb-8">CUSTOMER JOURNEYS</h3>
-                    <p className=" cursor-pointer leading-none text-black mb-6">We create engaging new customer journeys promoting your brand.</p>
+                    <h3 className="text-3xl font-mono text-black   mb-8">CUSTOMER JOURNEYS</h3>
+                    <p className=" font-mono text-black mb-6">We create engaging new customer journeys promoting your brand.</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono hover:text-white text-black py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
                   </div>
@@ -165,11 +165,11 @@ const Services = () => {
 
                   <div className='bg bg-yellow-300 h-96'></div>
                   <div class="carousel-caption d-sm-block">
-                    <h3 className="text-4xl  text-black mb-8">DIGITAL CONTENT CREATION</h3>
-                    <p className="text-sm cursor-pointer leading-none text-black mb-6">We use customer values to create engaging experiences that promote your brand.</p>
+                    <h3 className="text-3xl font-mono text-black mb-8">DIGITAL CONTENT CREATION</h3>
+                    <p className="text-sm font-mono leading-none text-black mb-6">We use customer values to create engaging experiences that promote your brand.</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-black py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono text-black   hover:text-black py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
                   </div>
@@ -192,7 +192,7 @@ const Services = () => {
 
           <div className="sm:flex">
             <div className="sm:w-full lg:w-3/6">
-              <h1 className="md:text-4xl sm:text-sm font-mono   text-black mb-2">OPERATIONAL CONSULTING</h1>
+              <h1 className="xs:text-3xl xs:text-center sm:text-2xl font-mono   text-black mb-2">OPERATIONAL CONSULTING</h1>
               <p className="sm:text-sm  text-black font-mono">Operational Consulting is all about growth.  Leaders often get challenged by external environment and it gets lonely at the top.  Critical feedback is hard to solicit and operational elements can suffer.</p>
             <br/>
                 <p className="sm:text-sm  text-black font-mono">Our consultation is unbiased, raw and gives direct insight into road blocks, show stoppers along with processes and mental models to shift gears and overcome difficult situations. </p>
@@ -226,11 +226,11 @@ const Services = () => {
 
                   <div className='bg bg-orange-500 h-96'></div>
                   <div class="carousel-caption  d-sm-block">
-                    <h3 className="text-4xl  font-semibold leading-tight text-white mb-8">EMPOWER PEOPLE</h3>
-                    <p className="text-sm  text-white mb-6">Creating High Performance culture and delivering tools and process for execution</p>
+                    <h3 className="text-3xl font-mono text-white mb-8">EMPOWER PEOPLE</h3>
+                    <p className="text-sm font-mono  text-white mb-6">Creating High Performance culture and delivering tools and process for execution</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
 
@@ -240,11 +240,11 @@ const Services = () => {
 
                   <div className='bg bg-orange-400 h-96'></div>
                   <div class="carousel-caption d d-sm-block">
-                    <h3 className="text-4xl  text-white mb-8">ROADMAP WORKSHOPS</h3>
-                    <p className="text-sm xs:text-lg text-white mb-6">Roadmapping and founder workshops.</p>
+                    <h3 className="text-3xl font-mono text-white mb-8">ROADMAP WORKSHOPS</h3>
+                    <p className="text-sm xs:text-lg font-mono text-white mb-6">Roadmapping and founder workshops.</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
 
@@ -253,11 +253,11 @@ const Services = () => {
                 <div class="carousel-item">
                   <div className='bg bg-orange-300 h-96'></div>
                   <div class="carousel-caption  d-sm-block">
-                    <h3 className="text-4xl cursor-default font-semibold text-white mb-8">RESEARCH PEOPLE</h3>
-                    <p>Insights from industry thought leaders.</p>
+                    <h3 className="text-3xl font-mono  text-white mb-8">RESEARCH PEOPLE</h3>
+                    <p className='font-mono'>Insights from industry thought leaders.</p>
                     <Link to="/contact">
-                  <button class="bg-transparent  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
-                    Contact us
+                  <button class="bg-transparent font-mono hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
                   </button>
                 </Link>
                   </div>

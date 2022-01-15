@@ -15,8 +15,11 @@ export const SliderEvent = () => {
 
             <div className=' bg-pink-600 h-96'></div>
             <div class="carousel-caption d-sm-block">
-              <h3 className="text-xl font-serif font-semibold text-black">Fun Event</h3>
-              <p className=" text-center  text-black mb-6">Fun experiences and stories that tell our journey</p>
+              <h3 className="text-xl font-mono  text-black">Fun Event</h3>
+              <p className=" text-center font-mono  text-black mb-6">Fun experiences and stories that tell our journey</p>
+              <button class=" invisible bg-transparent font-mono py-4 hover:text-white  px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
+                  </button>
 
             </div>
           </div>
@@ -24,16 +27,21 @@ export const SliderEvent = () => {
 
             <div className=' bg-yellow-600 h-96'></div>
             <div class="carousel-caption  d-sm-block">
-              <h3 className="text-xl  font-semibold  text-black">Enterpreneur Journey</h3>
-              <p className="text-sm  text-black mb-6">Improve culture and talent retention, add resilence, create lasting organisational change, setting up for long term growth.</p>
-
+              <h3 className="text-xl font-mono    text-black">Enterpreneur Journey</h3>
+              <p className="text-sm font-mono  text-black mb-6">Improve culture and talent retention, add resilence, create lasting organisational change, setting up for long term growth.</p>
+              <button class=" invisible bg-transparent font-mono py-4 hover:text-white  px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
+                  </button>
             </div>
           </div>
           <div class="carousel-item">
             <div className=' bg-yellow-400 h-96'></div>
             <div class="carousel-caption  d-sm-block">
-              <h3 className='text-xl  font-semibold  text-black'>Design Thinking</h3>
-              <p className="text-sm  text-black mb-6">Design Centered line of thoughts that inspire.</p>
+              <h3 className='text-xl font-mono    text-black'>Design Thinking</h3>
+              <p className="text-sm font-mono  text-black mb-6">Design Centered line of thoughts that inspire.</p>
+              <button class=" invisible bg-transparent font-mono py-4 hover:text-white  px-4 border  hover:border-transparent rounded-full">
+                    CONTACT US
+                  </button>
             </div>
           </div>
         </div>
