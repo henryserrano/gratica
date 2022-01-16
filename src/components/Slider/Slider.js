@@ -41,7 +41,7 @@ export const Slider = () => {
             <div className="carousel-caption  d-sm-block">
               <h5 className='text-4xl font-mono text-left'>CUSTOMER AQUISITION PROGRAM</h5>
               <p className='text-xl font-mono text-left' >Innovate program that creates brand new sales channel, delivering results and positive community impact .</p>
-              <button class=" invisible bg-transparent font-mono py-5 hover:text-white  px-4 border  hover:border-transparent rounded-full">
+              <button className=" invisible bg-transparent font-mono py-5 hover:text-white  px-4 border  hover:border-transparent rounded-full">
                     CONTACT US
                   </button>
                   <h1 className='sm:py-8 text-white'></h1>
