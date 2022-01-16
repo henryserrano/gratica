@@ -213,24 +213,24 @@ export const Evento = () => {
         </div>
 
         <div className='xs:w-full sm:w-4/6 '>
-        <form class=" w-flex">
+        <form className=" w-flex">
         <h1 className='text-black font-mono text-6xl text-center py-2' >Book Brain Gym</h1>
           <div className='xs:w-full  sm:flex'>
             <div className='ml-2 mr-2  sm:w-3/6 mt-2 '>
               <input className="bg-gray-200  font-mono rounded  py-2 px-4  xs:w-full  " id="name" type="text" placeholder='Name' />
             </div>
             <div className=' ml-2 mr-2 sm:w-3/6 mt-2 '>
-              <input class="bg-gray-200 rounded font-mono  py-2 px-4   xs:w-full  border-gray-200 w-3/6 text-gray-700  focus:bg-white " id="inline-password" type="email" placeholder="Email" />
+              <input className="bg-gray-200 rounded font-mono  py-2 px-4   xs:w-full  border-gray-200 w-3/6 text-gray-700  focus:bg-white " id="inline-password" type="email" placeholder="Email" />
             </div>
           </div>
           <div className='xs:w-full xs:flex'>
           <div className="xs:w-full ml-2 mr-2 mt-2 ">
-            <input class="bg-gray-200  font-mono border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700  focus:outline-none focus:bg-white " id="inline-password" type="text" placeholder="Company name" />
+            <input className="bg-gray-200  font-mono border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700  focus:outline-none focus:bg-white " id="inline-password" type="text" placeholder="Company name" />
           </div>
           </div>
           <div className='xs:w-full xs:flex'>
           <div className="w-full ml-2 mr-2 mb-2  mt-2">
-              <button class="shadow w-full font-mono bg-slate-900 hover:bg-pink-600 focus:shadow-outline focus:outline-none text-white  py-2 px-4 rounded" type="button">
+              <button className="shadow w-full font-mono bg-slate-900 hover:bg-pink-600 focus:shadow-outline focus:outline-none text-white  py-2 px-4 rounded" type="button">
                 book now
               </button>
             </div>
