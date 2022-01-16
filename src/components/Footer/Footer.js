@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className=" xs:w-full sm:w-2/6 px-7">
                     <img className="" src="/images/graticalogo.png" />
                     <div className="xs:py-3">
-                        <svg className="h-4 w-4 text-pink-500 float-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />  <polyline points="22,6 12,13 2,6" /></svg>
-                        <a className="text-white font-mono float-left " href="mailto:infodesk@gratica.net">infodesk@gratica.net
+                    <img className="h-4 w-4 absolute" src="/images/icons8-mail.png " />
+                        <a className="text-white px-4 font-mono  " href="mailto:infodesk@gratica.net">infodesk@gratica.net
                         </a>
                     </div>
                 </div>
