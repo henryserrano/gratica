@@ -13,7 +13,7 @@ export const Contact = () => {
 
 
       <div className='w-full grid place-items-center' >
-        <h1 className="text-5xl text-white xs:text-center absolute">GET IN TOUCH</h1>
+        <h1 className="text-5xl text-white xs:text-center sm:text-center md:text-center absolute">GET IN TOUCH</h1>
 
         <img className='w-full xs:h-auto lg:h-72' src='https://www.ryangroup.org/public/images/front_end/header-images/connect_1604410548.jpg' />
       </div>
