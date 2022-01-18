@@ -62,7 +62,7 @@ export const About = () => {
                 <h3 className="text-xl font-mono  text-white ">Customised leadership workshop. Empowered executives to drive outcomes through research and best practice mechanisms.</h3>
 
                 <Link to="/contact">
-                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border-2   rounded-full">
                     CONTACT US
                   </button>
                 </Link>
@@ -87,7 +87,7 @@ export const About = () => {
               <div className='backgr-yellow h-72 grid place-items-center' >
                 <h3 className="text-xl font-mono   text-white mb-8">We created an automated invoice processing capability that increased staff productivity and agility. This was an effective way to help scale growing businesses by reducing operational overhead on staff.</h3>
                 <Link to="/contact">
-                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border-2  hover: rounded-full">
                     CONTACT US
                   </button>
                 </Link>
@@ -112,7 +112,7 @@ export const About = () => {
               <div className='backgr-orange h-72 grid place-items-center' >
                 <h3 className="text-xl font-mono  text-white mb-8">Workshop focused on creating a roadmap for business leaders to help them create mechanism for scaling their time and grow their business.</h3>
                 <Link to="/contact">
-                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border-2   rounded-full">
                     CONTACT US
                   </button>
                 </Link>
@@ -138,7 +138,7 @@ export const About = () => {
               <div className='backgr-rosa h-72 grid place-items-center' >
                 <h3 className="text-xl font-mono   text-white mb-8">We created a journey for businesses to understand their brand creation through an immersive experience using design thinking principles.</h3>
                 <Link to="/contact">
-                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border  hover:border-transparent rounded-full">
+                  <button className="bg-transparent font-mono  hover:text-white py-2 px-4 border-2 rounded-full">
                     CONTACT US
                   </button>
                 </Link>

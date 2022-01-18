@@ -27,10 +27,10 @@ const Home = () => {
 
 
       <div className="flex py-4">
-        <div className='text-white text-center xs:text-3xl  font-mono sm:text-6xl absolute xs:py-12 sm:py-24 md:py-40 '>We help businesses create products, gain more customers and improve operations.</div>
+        <div className='text-white text-center xs:text-3xl  font-mono sm:text-6xl absolute xs:py-12 sm:py-24 md:py-48 '>We help businesses create products, gain more customers and improve operations.</div>
 
 
-        <img className='xs:h-60 sm:h-96 md:h-[32rem] w-full ' src="/images/teamwork.jpg" />
+        <img className='xs:h-60 sm:h-96 md:h-[36rem] w-full ' src="/images/teamwork.jpg" />
       </div>
 
 

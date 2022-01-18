@@ -47,7 +47,7 @@ const Services = () => {
           <div className="sm:flex ">
             <div className=" sm:w-full lg:w-3/6 ">
               <h1 className="xs:text-3xl xs:text-center xs:font-mono md:text-4xl px-3 sm:font-mono lg:font-mono md:font-mono  text-black ">BRAND DEVELOPMENT</h1>
-              <p className=" xs:text-base px-3 text-xl  text-black font-mono ">Using Design Thinking strategies we will help you create a truly unique and compelling customer centric messaging.
+              <p className=" xs:text-base px-3 text-xl md:text-lg  text-black font-mono ">Using Design Thinking strategies we will help you create a truly unique and compelling customer centric messaging.
                 By understanding the needs and goals of the company, we help you create a marketing and technical brief. This empowering process delivers clarity of messaging, objectives and ultimately delivers a specification for innovation.</p>
 
             </div>
@@ -127,11 +127,11 @@ const Services = () => {
               <h1 className="text-3xl text-center font-mono   text-black mb-8">CUSTOMER ACQUISITION PROGRAM</h1>
              
                 <ul className=''>
-               <li className='font-mono'> -We help businesses</li>
-               <li className='font-mono'> -Run unique digital events</li>
-               <li className='font-mono'>-Attract more customers</li>
-               <li className='font-mono'>-Create SME content</li>
-               <li className='font-mono'>-Increase market visibility</li>
+               <li className='font-mono md:text-lg'> -We help businesses</li>
+               <li className='font-mono  md:text-lg'> -Run unique digital events</li>
+               <li className='font-mono  md:text-lg'>-Attract more customers</li>
+               <li className='font-mono  md:text-lg'>-Create SME content</li>
+               <li className='font-mono  md:text-lg'>-Increase market visibility</li>
                 </ul>
               
 
@@ -193,9 +193,9 @@ const Services = () => {
           <div className="sm:flex">
             <div className="sm:w-full lg:w-3/6">
               <h1 className="xs:text-3xl xs:text-center sm:text-2xl font-mono   text-black mb-2">OPERATIONAL CONSULTING</h1>
-              <p className="sm:text-sm  text-black font-mono">Operational Consulting is all about growth.  Leaders often get challenged by external environment and it gets lonely at the top.  Critical feedback is hard to solicit and operational elements can suffer.</p>
+              <p className="sm:text-sm md:text-lg  text-black font-mono">Operational Consulting is all about growth.  Leaders often get challenged by external environment and it gets lonely at the top.  Critical feedback is hard to solicit and operational elements can suffer.</p>
             <br/>
-                <p className="sm:text-sm  text-black font-mono">Our consultation is unbiased, raw and gives direct insight into road blocks, show stoppers along with processes and mental models to shift gears and overcome difficult situations. </p>
+                <p className="sm:text-sm md:text-lg   text-black font-mono">Our consultation is unbiased, raw and gives direct insight into road blocks, show stoppers along with processes and mental models to shift gears and overcome difficult situations. </p>
 
             </div>
             <div className="sm:w-full lg:w-3/6"   >
