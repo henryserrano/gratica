@@ -21,17 +21,17 @@ const Services = () => {
                 <div className="carousel-inner">
                   <div className="carousel-item active" data-bs-interval="3000">
                     <div className='bg-white h-auto grid place-items-center'>
-                      <h1 className='text-black text-5xl text-center font-normal sm:font-mono py-28'>Think </h1>
+                      <h1 className='text-black text-5xl text-center font-normal sm:font-mono md:py-48 py-28'>Think </h1>
                     </div>
                   </div>
                   <div className="carousel-item" data-bs-interval="3000">
                     <div className='bg-white h-auto'>
-                      <h1 className='text-black text-5xl font-family:"AdamBold" text-center py-28'>Accelerate </h1>
+                      <h1 className='text-black text-5xl font-family:"AdamBold" text-center py-28 md:py-48'>Accelerate </h1>
                     </div>
                   </div>
                   <div className="carousel-item" data-bs-interval="3000">
                     <div className='bg-white h-auto'>
-                      <h1 className='text-black text-5xl font-mono text-center py-28'>Innovate </h1>
+                      <h1 className='text-black text-5xl font-mono text-center py-28 md:py-48'>Innovate </h1>
                     </div>
                   </div>
 
