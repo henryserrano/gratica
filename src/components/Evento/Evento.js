@@ -10,19 +10,19 @@ export const Evento = () => {
       <div className='w-full'>
         <img className='w-full' src='/images/braingym.png' />
       </div>
-      <div className='xs:hidden md:grid'>
+      <div className='xs:hidden md:grid mt-3'>
         <div className='grid place-items-center'>
           <div className='flex percentage-ninety h-96 px-5'>
 
-            <div className="flip-card w-2/6  ">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
+            <div className="flip-card w-2/6 mr-2 ml-2 ">
+              <div className="flip-card-inner ">
+                <div className="flip-card-front ">
                   <div className='bg-pink-600 h-96 grid place-items-center' >
                     <h1 className="text-5xl font-mono  text-white ">Fun Event</h1>
                   </div>
 
                 </div>
-                <div className="flip-card-back">
+                <div className="flip-card-back  ">
                   <div className='bg-pink-600 h-96 grid place-items-center' >
                     <h3 className="text-xl font-mono text-white">Fun experiences and stories that tell our journey.</h3>
                   </div>
@@ -32,7 +32,7 @@ export const Evento = () => {
 
             </div>
 
-            <div className="flip-card w-2/6 ">
+            <div className="flip-card w-2/6 mr-2 ml-2  ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-pink-600 h-96 grid place-items-center' >
@@ -50,7 +50,7 @@ export const Evento = () => {
 
             </div>
 
-            <div className="flip-card w-2/6  ">
+            <div className="flip-card w-2/6 mr-2 ml-2   ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-pink-600 h-96 grid place-items-center' >
@@ -74,7 +74,7 @@ export const Evento = () => {
 
         <div className='grid place-items-center'>
           <div className='flex percentage-ninety h-96 px-5'>
-            <div className="flip-card w-2/6  ">
+            <div className="flip-card w-2/6 mr-2 ml-2">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-yellow-600 h-96 grid place-items-center' >
@@ -92,7 +92,7 @@ export const Evento = () => {
 
             </div>
 
-            <div className="flip-card w-2/6">
+            <div className="flip-card w-2/6 mr-2 ml-2 ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-yellow-600 h-96 grid place-items-center' >
@@ -110,7 +110,7 @@ export const Evento = () => {
 
             </div>
 
-            <div className="flip-card w-2/6">
+            <div className="flip-card w-2/6 mr-2 ml-2 ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-yellow-600 h-96 grid place-items-center' >
@@ -133,7 +133,7 @@ export const Evento = () => {
         <div className='grid place-items-center'>
           <div className='flex percentage-ninety h-96 px-5 '>
 
-            <div className="flip-card w-2/6 ">
+            <div className="flip-card w-2/6 mr-2 ml-2">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-yellow-400 h-96 grid place-items-center' >
@@ -152,7 +152,7 @@ export const Evento = () => {
             </div>
 
 
-            <div className="flip-card w-2/6 ">
+            <div className="flip-card w-2/6 mr-2 ml-2 ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-yellow-400 h-96 grid place-items-center' >
@@ -171,7 +171,7 @@ export const Evento = () => {
             </div>
 
 
-            <div className="flip-card w-2/6 ">
+            <div className="flip-card w-2/6 mr-2 ml-2  ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className='bg-yellow-400 h-96 grid place-items-center' >
